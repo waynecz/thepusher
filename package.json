@@ -1,0 +1,35 @@
+{
+  "name": "thepusher",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "gulp dev",
+    "prod": "node ./bin/www"
+  },
+  "dependencies": {
+    "art-template": "^3.0.3",
+    "autoprefixer": "^6.3.6",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "latest",
+    "debug": "^2.2.0",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "browser-sync": "^2.14.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-if": "^2.0.1",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tmtsprite": "^0.0.22",
+    "node-lwip": "^0.2.1",
+    "node-sass": "^3.8.0",
+    "jpegtran-bin": "^3.1.0",
+    "lwip": "0.0.9",
+    "markdown-it": "^7.0.0"
+  }
+}
