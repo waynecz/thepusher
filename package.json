@@ -10,6 +10,7 @@
     "art-template": "^3.0.3",
     "autoprefixer": "^6.3.6",
     "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
     "cookie-parser": "latest",
     "debug": "^2.2.0",
     "express": "~4.13.4",

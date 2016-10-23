@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var template = require('art-template');
 var favicon = require('serve-favicon');
+var compression = require('compression');
 var renderPage = require('./middleware/renderPage')
 
 // 路由入口
@@ -24,6 +25,8 @@ app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 // 打印请求
 app.use(logger('dev'));
 app.use(renderPage);
+
+app.use(compression());
 
 // bodyParser用于解析客户端请求的body中的内容
 app.use(bodyParser.json());
