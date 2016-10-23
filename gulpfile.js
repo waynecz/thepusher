@@ -26,7 +26,7 @@ gulp.task('bs', () => {
         proxy: "http://localhost:3000",
         port: 2333,
         logLevel: "silent",
-        file: path.resolve(__dirname, 'public/**/*.*')
+        file: './public/**/*.*'
     });
     return Promise.resolve()
 });

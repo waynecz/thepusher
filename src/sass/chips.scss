@@ -1,13 +1,19 @@
-$gr: #3ab54a;
-$wt: #fafafa;
-$rd: #FF3f3f;
-$wr: rgb(245,177,75);
-$dk: #222;
-$bk: #333;
-$bk-1: #444;
-$bk-2: #555;
-
+$wr: #ffeb6b;
 
 .shadow {
 	display: none!important;
+}
+
+.pr {
+	position: relative;
+}
+
+.cf {
+	*zoom: 1;
+	&:after {
+		content: '\200B';
+		display: block;
+		height: 0;
+		clear: both;
+	}
 }

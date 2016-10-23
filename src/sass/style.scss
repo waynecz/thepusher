@@ -89,8 +89,7 @@ Main Components
 }
 .cd-section:first-of-type .cd-block {
   visibility: visible;
-  height: 100vh;
-  background-color: #263b40;
+  height: 59vh;
 }
 @media only screen and (min-width: 1170px) {
   .cd-block {
@@ -122,22 +121,23 @@ Main Components
   background-repeat: no-repeat;
 }
 .cd-half-block:nth-of-type(2) {
-  padding: 4em 10%;
+  padding: 2em 5%;
 }
 .cd-half-block p {
   font-size: 1.8rem;
   line-height: 1.8;
 }
 .cd-section:nth-of-type(2) .cd-half-block:first-of-type {
-  background-image: url("../imgs/img-1.jpg");
+  background-image: url("../imgs/img-4.jpg");
+  background-position: right center;
   background-size: cover;
 }
 .cd-section:nth-of-type(3) .cd-half-block:first-of-type {
-  background-image: url("../imgs/img-2.jpg");
+  background-image: url("../imgs/img-3.jpg");
   background-size: cover;
 }
 .cd-section:nth-of-type(4) .cd-half-block:first-of-type {
-  background-image: url("../imgs/img-3.jpg");
+  background-image: url("../imgs/img-1.jpg");
   background-size: cover;
 }
 @media only screen and (min-width: 1170px) {
