@@ -23,7 +23,7 @@ var VIEW = path.resolve(__dirname, 'views/**');
 
 gulp.task('bs', () => {
     bs.init(null, {
-        proxy: "http://localhost:3000",
+        proxy: "http://localhost:8080",
         port: 2333,
         logLevel: "silent",
         file: './public/**/*.*'

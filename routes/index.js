@@ -8,4 +8,11 @@ router.get('/', function (req, res, next) {
     });
 });
 
+router.get('/vue-img-inputer', function (req, res, next) {
+    var title = 'VueImgInpute';
+    res.render('inputer', {
+        title: title
+    });
+});
+
 module.exports = router;
